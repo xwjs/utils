@@ -27,6 +27,7 @@ project()
     mkdir -p $pwd/include $pwd/lib $pwd/output $pwd/src
 
 echo '#include <iostream>
+
 int main(int argc, char *argv[])
 {
     return 0;
