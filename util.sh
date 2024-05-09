@@ -35,3 +35,8 @@ allow_port()
     ufw reload
 }
 
+alias net='netstat -nlpt'
+alias ip='ifconfig'
+alias disk='df -h'
+alias mem='free -h'
+alias dir='du --max-depth=1 -h'
